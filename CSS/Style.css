@@ -31,6 +31,9 @@ html
 body{
     background: #eee;
 }
+section{
+    padding: 2rem 9%;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -255,7 +258,36 @@ body{
     color: var(--orange);
     text-decoration: underline;
 }
-
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+.home .content
+{
+    text-align: center;
+    width: 60rem; 
+}
+.home .content h3
+{
+    color: var(--black);
+    font-size: 3rem;
+}
+.home .content h3 span{
+    color: var(--orange);
+}
+.home .content p
+{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
@@ -284,6 +316,9 @@ body{
         font-size: 55%;
     }
     header{
+        padding: 2rem;
+    }
+    section{
         padding: 2rem;
     }
 }
